@@ -1,0 +1,34 @@
+#include<stdio.h>
+int main()
+{
+	int n,i;
+	printf("enter n:");
+	scanf("%d",&n);
+	int a[n],b[n];
+	for(i=0; i<n;i++)
+	{
+		printf("enter a[%d]",i);
+		scanf("%d",&a[i]);
+		
+		
+	}
+	for(i=0; i<n;i++)
+	{
+		b[i]=a[i];
+		
+	}
+	 printf("Array a:\n");
+	for(i=0; i<n; i++)
+	{
+		printf("%d ",a[i]);
+		
+	}
+	 printf("Array b:\n");
+	for(i=0; i<n; i++)
+	{
+		printf("%d ",b[i]);
+		
+	}
+
+}
+
